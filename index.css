@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Nexa;
+    src: url(Nexa-Heavy.ttf);
+}
+
+body {
+    font-family: Nexa;
+    background-color: rgb(255, 123, 16);
+}
+
+#BackTitle {
+    padding: 10px; border-color: rgb(237, 102, 34); border-style: double; border-width: 10px; text-align: center;
+}
+
+h1 {
+    color: rgb(20, 20, 20); border: 3px;
+}
+
+.point {
+    text-align: center;
+}
+
+.fade-in-image {
+    opacity: 0%;
+    transition: opacity 1s;
+  }
+
+.fade-in-image:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    opacity: 35%;
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 32px; 
+    text-align: center;
+    transition: opacity 1s;
+    transition: padding 1s;
+    transition: font-size 1s;
+}
+
+.overlay-text:hover {
+
+    opacity: 100%;
+    padding: 16px 26px; 
+    font-size: 36px; 
+    transition: opacity 1s;
+    transition: padding 1s;
+    transition: font-size 1s;
+}
