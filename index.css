@@ -11,6 +11,14 @@ body {
     background-color: rgb(255, 123, 16);
 }
 
+th {
+    background-color:#ed2e11;
+  }
+
+td {
+    border: 2px solid black;
+}
+
 header {
     line-height: 0.7;
     background-color: #ed2e11;
@@ -24,7 +32,7 @@ h1 {
 }
 
 .Subtitle {
-    color: rgb(141, 141, 141);
+    color: rgb(203, 203, 203);
 }
 
 .point {
